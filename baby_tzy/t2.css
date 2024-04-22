@@ -1,0 +1,45 @@
+
+body {
+    /* background: #000; */
+    line-height: 2;
+    font-family: "Lucida Handwriting",Comic Sans MS;
+}
+
+.c {
+    color: #f1ecec;
+    opacity: 0
+    
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  /*animation-name: fadeIn;*/
+  animation: fadeIn 1s both;
+}
+
+.content {
+    /*font-family: "Times New Roman", Times, serif;*/
+    background-image: url('tzy22.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 108px;
+    padding: 200px 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.animated {
+  /*animation-duration: 1s;*/
+  /*animation-fill-mode: both;*/
+}
